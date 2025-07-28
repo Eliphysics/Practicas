@@ -1,12 +1,12 @@
-const express = require('express');
+import express,{Request, Response} from "express";
 const app = express();
 const port = 3000;
 
-app.get('/', (req, res) => {
-    res.send('Adiós')
+app.get('/practicas/hola', (req: Request, res: Response) => {
+    res.send("Adiós");
 })
 app.listen(port,() => {
-    console.log('escuchando')
+    console.log("escuchando")
 })
 
-let hola = "http://localhost:3000/practicas"
+let hola = "http://localhost:3000/practicas/hola"
