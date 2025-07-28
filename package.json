@@ -1,0 +1,17 @@
+{
+  "name": "practicas-fisica",
+  "version": "1.0.0",
+  "main": "colas.js",
+  "scripts": {
+    "start": "ts-node colas.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0",
+    "@types/express": "^4.17.0",
+    "@types/node" : "^20.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
