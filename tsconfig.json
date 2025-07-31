@@ -8,6 +8,6 @@
     "strict": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["node", "amqplib", "express"]
+    "types": ["node", "amqplib", "express","pg"]
   }
 }
